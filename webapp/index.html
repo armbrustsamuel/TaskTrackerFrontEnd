@@ -18,14 +18,19 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<script>
-			sap.ui.getCore().attachInit(function() {
-				new sap.m.Shell({
-					app: new sap.ui.core.ComponentContainer({
-						height : "100%",
-						name : "SapTaskTrackerApp"
-					})
-				}).placeAt("content");
-			});
+			// sap.ui.getCore().attachInit(function() {
+			// 	new sap.m.Shell({
+			// 		app: new sap.ui.core.ComponentContainer({
+			// 			height : "100%",
+			// 			name : "SapTaskTrackerApp"
+			// 		})
+			// 	}).placeAt("content");
+			// });
+			sap.ui.localResources("view");
+			var app = new sap.m.App("app",{initialPage:"idTasks"});
+			var page = sap.ui.view({id:"idTasks", viewName:"view.Tasks", type:sap.ui.core.mvc.ViewType.XML});
+			app.addPage(page);
+			app.placeAt("content");
 		</script>
 	</head>
 
