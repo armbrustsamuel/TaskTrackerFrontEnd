@@ -1,5 +1,5 @@
 # TaskTrackerFrontEnd
-Frontend new version for SAP Task Tracker Application
+Frontend new version for SAP Task Tracker Application (TechSchool 2nd Edition)
 
 # Useful links
 
