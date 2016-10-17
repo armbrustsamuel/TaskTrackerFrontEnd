@@ -18,6 +18,14 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+    	"path": "/webapp/tasktrackerfiori",
+    	"target": {
+    		"type": "destination",
+    		"name": "tasktrackerfiori"
+    	},
+    	"description": "Back End URL"
     }
   ],
   "sendWelcomeFileRedirect": true
