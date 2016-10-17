@@ -2,8 +2,20 @@
 	xmlns="sap.m">
 	<App>
 		<pages>
-			<Page title="{i18n>title}">
-				<content></content>
+			<Page title="SAP Task Tracker">
+				<content>
+				    <List id="tasksList" mode="Delete" delete="onDeleteClick" items="{Tasks>/taskList}">
+		                <CustomListItem press="onTaskClicked" type="Active">
+		                    <CheckBox text="{Tasks>name}" selected="{Tasks>done}" enabled="false"/>
+		                </CustomListItem>
+		          </List>
+				</content>
+				<footer>
+				    <Toolbar>
+		    		    <ToolbarSpacer/>
+		                <Button text="New task" press="onNewTaskClicked" icon="sap-icon://add"/>
+		            </Toolbar>
+				</footer>
 			</Page>
 		</pages>
 	</App>
