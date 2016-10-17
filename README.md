@@ -1,7 +1,7 @@
 # TaskTrackerFrontEnd
 Frontend new version for SAP Task Tracker Application
 
-# USeful links
+# Useful links
 
 UI5 Documentation
 https://sapui5.hana.ondemand.com/sdk/#content/Overview.html
