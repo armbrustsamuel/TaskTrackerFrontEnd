@@ -2,8 +2,17 @@
 	xmlns:html="http://www.w3.org/1999/xhtml">
 	<App>
 		<pages>
-			<Page title="Title">
-				<content></content>
+			<Page title="New Task" showNavButton="true" navButtonPress="onBackClicked">
+				<content>
+				    <Label text="Task name"/>
+				    <Input id="taskNameInput"/>
+				</content>
+				<footer>
+				    <Toolbar>
+		    		    <ToolbarSpacer/>
+		                <Button text="Save" press="onSaveClicked" icon="sap-icon://save"/>
+		            </Toolbar>
+				</footer>
 			</Page>
 		</pages>
 	</App>
