@@ -1,5 +1,5 @@
 # TaskTrackerFrontEnd
-Frontend new version for SAP Task Tracker Application (TechSchool 2nd Edition)
+Frontend development new version for SAP Task Tracker Application (TechSchool 3rd Edition)
 
 # Useful links
 
@@ -12,11 +12,14 @@ https://sapui5.hana.ondemand.com/sdk/explored.html
 UI5 icons explorer
 https://openui5.hana.ondemand.com/iconExplorer.html
 
-BACKEND URL
-https://hcptrainingi845130trial.hanatrial.ondemand.com/SAPTaskTrackerBackEnd/rest/task
+BACKEND URL - Updated at 28.05.2017
+https://testefortrainingi843890trial.hanatrial.ondemand.com/tasktrackertest/rest/task
+
+SAP Cloud Platform
+https://account.hanatrial.ondemand.com/cockpit#/acc/iXXXXXXtrial/accountdashboard -> XXXXXX (User ID)
 
 # FRONT-END DEVELOPMENT
-Access the HCP Cockpit > Subscriptions > SAP Web IDE > Open SAP Web IDE
+Access the SCP Cockpit > Subscriptions > SAP Web IDE > Open SAP Web IDE
 
 # Creating a new UI5 project
 -	File > New > Project from Template > SAPUI5 Application
