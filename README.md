@@ -1,6 +1,11 @@
 # TaskTrackerFrontEnd
 Frontend development new version for SAP Task Tracker Application (TechSchool 3rd Edition)
 
+# Improvements:
+1. Use Router instead of App container
+2. Check the correct steps for commits
+3. Redo all the steps to confirm if it is ok
+
 # Useful links
 
 UI5 Documentation
