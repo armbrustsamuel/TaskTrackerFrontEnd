@@ -6,7 +6,7 @@ Frontend development new version for SAP Task Tracker Application (TechSchool 3r
 2. Check the correct steps for commits
 3. Redo all the steps to confirm if it is ok
 
-# Useful links
+# Useful links 
 
 UI5 Documentation
 https://sapui5.hana.ondemand.com/sdk/#content/Overview.html
